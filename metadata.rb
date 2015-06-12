@@ -1,0 +1,17 @@
+name             'chef-rails-host'
+maintainer       'Chris Cassatt'
+maintainer_email 'ccassatt@stsiinc.com'
+license          'All rights reserved'
+description      'Installs/Configures chef-rails-host'
+long_description 'Installs/Configures chef-rails-host'
+
+version          '0.1.0'
+
+depends 'apt'
+depends 'git'
+depends 'build-essential'
+depends 'nginx'
+depends 'ntp'
+depends 'nodejs'
+depends 'rbenv'
+depends 'postgresql'
